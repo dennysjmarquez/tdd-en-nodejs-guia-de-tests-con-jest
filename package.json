@@ -4,9 +4,9 @@
   "description": "Test driven development con NodeJS y jest. Inyección de dependencias, test unitarios, test de integración.",
   "main": "server.js",
   "scripts": {
-    "start": "npm run test",
+    "start": "jest",
     "start:demon": "nodemon server.js",
-    "test": "jest --watchAll"
+    "test-watchAll": "jest --watchAll"
   },
   "author": "dennysjmarquez",
   "license": "ISC",
